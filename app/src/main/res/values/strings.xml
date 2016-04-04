@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Popcorn</string>
+    <string name="retry">retry</string>
+    <string name="movies_load_error_text">Failed to load movies</string>
+    <string name="action_sort">Sort by</string>
+    <string name="action_sort_popularity">Sort by popularity</string>
+    <string name="action_sort_rating">Sort by rating</string>
+    <string name="empty" />
+    <string name="trailers_title">Trailers</string>
+    <string name="reviews_title">Reviews</string>
+    <string name="load_trailers_error_message">Failed to load trailers!</string>
+    <string name="action_add_fav">Add to Favorites</string>
+    <string name="action_rm_fav">Remove from Favorites</string>
+    <string name="action_sort_fav_title">Favorites</string>
+    <string name="action_share">Share</string>
+    <string name="share_trailer_title">Share trailer url!</string>
+    <string name="share_trailer_title_text">Watch this awesome video!</string>
+</resources>

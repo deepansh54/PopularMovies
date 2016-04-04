@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/item_review_width"
+    android:layout_height="@dimen/item_review_height"
+    android:layout_margin="@dimen/item_review_margin">
+
+    <RelativeLayout
+        android:layout_width="@dimen/item_review_width"
+        android:layout_height="@dimen/item_review_height"
+        android:padding="@dimen/item_review_margin">
+
+        <TextView
+            android:id="@+id/review_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/review_title_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/review_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/review_title_tv"
+            android:ellipsize="end" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

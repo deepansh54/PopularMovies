@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="details_padding">8dp</dimen>
+    <dimen name="elevation_std">4dp</dimen>
+    <dimen name="fading_edge_length">5dp</dimen>
+    <dimen name="padding_std">16dp</dimen>
+    <dimen name="details_title_size">24dp</dimen>
+    <dimen name="padding_list">4dp</dimen>
+    <dimen name="item_margin">4dp</dimen>
+    <dimen name="subtitle_size">18dp</dimen>
+    <dimen name="details_subtitle_margin">4dp</dimen>
+    <dimen name="trailer_height">190dp</dimen>
+    <dimen name="review_height">190dp</dimen>
+    <dimen name="item_trailer_width">320dp</dimen>
+    <dimen name="item_trailer_height">180dp</dimen>
+    <dimen name="item_trailer_margin">5dp</dimen>
+    <dimen name="trailer_title_padding">5dp</dimen>
+    <dimen name="item_review_width">320dp</dimen>
+    <dimen name="item_review_height">180dp</dimen>
+    <dimen name="item_review_margin">5dp</dimen>
+    <dimen name="review_title_text_size">16dp</dimen>
+</resources>

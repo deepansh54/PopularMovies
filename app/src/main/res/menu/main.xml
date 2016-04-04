@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tapptitude.imobiliare.ui.MainActivity">
+
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_action_sort"
+        android:title="@string/action_sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_sort_popularity"
+                    android:orderInCategory="1"
+                    android:title="@string/action_sort_popularity"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_sort_rating"
+                    android:orderInCategory="2"
+                    android:title="@string/action_sort_rating"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_sort_fav"
+                    android:orderInCategory="3"
+                    android:title="@string/action_sort_fav_title"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+</menu>
